@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* 文字の色 緑rgba(128, 248, 176, 0.8) ピンク*/
+body{position: absolute; padding:40px 10px; width:95%; background-color:#e69eb2;}
+ul{display:inline-block;}
+.sinkyoku{position: relative; left:10%;}
+li{display:block; padding: 0 10px; width:100%; border: 8px solid white;}
+.primary li{transition: .2s;}
+.primary li:hover{
+    transform: translate(-2px,-2px);
+    box-shadow:10px 10px 4px #e69eb2;}
+.re{display:block}
+h1{ background-image: url("でんぐり返し.jpg");background-size: contain; background-position-y:5%; text-align:center; margin: 0;
+position: fixed; top:0; left: 0; width:100%; border:solid 10px rosybrown; padding:20px 0; z-index:100; color:rgba(128, 248, 176, 0.8)}
+.fix{position: absolute; top:0;}
+.icon{position: fixed; z-index: 200; top: 10px; left:10px; width:90px}
+.start{margin-top: 80px;}
+article{background-color: aliceblue;}
+a,p{color:rgba(128, 248, 176, 0.8); font-size: 32px;}
+h2{text-decoration:wavy; color: rgba(128, 248, 176, 0.8); border-bottom: lightblue 10px dashed; width:max-content;
+    text-align: center; border-right: 20px solid lightblue; font-size: 40px; padding-right: 20px;}
+.title{display: inline-block; text-decoration:none; font-weight: bolder; position: relative; width:45%; margin:20px}
+.title p{display: inline-block; position: relative;}
+.title p::before{content:""; width: 100%; left: 0; top:100%; position: absolute; height:4px; background-color: white;}
+.title p:hover::before{transition: .2s; transform: translateY(-4px);}
+.new_song span{position: absolute; right:1%; top:6%; z-index: 10; padding: 0.5em; width: max-content;}
+.new_song p{color: white; font-size: 21px;}
+.new_song{box-shadow: 6px 2px 10px black; width: 90%; margin: auto 0%; padding-right: 10%; background-color: black;
+    display: inline-block;  transition: 1.2s;}
+.new_song img{position: relative; left: 0; margin: 5%; padding-bottom: 4%;}
+.new_song:hover{box-shadow: 12px 4px 20px black; background-color: rgb(30, 30, 30);}
